@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Doctor_info">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Doctor details"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="bottom|center"
+        android:background="@drawable/btn_style3"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_info"
+        android:text="ID"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_info"
+        android:text="AMARA YOUCEF"
+        android:textColor="@color/black"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spec_info"
+        android:text="General Medecine"
+        android:textColor="@color/black"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loc_info"
+        android:text="Location"
+        android:textColor="@color/black"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_info"
+        android:text="031564269"
+        android:textColor="@color/black"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_info"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="28sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_info"
+            android:text="Edit"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_style1"
+            android:backgroundTint="@color/purple_500"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete_info"
+            android:text="Delete"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_style1"
+            android:backgroundTint="@color/red"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</LinearLayout>
